@@ -1,0 +1,243 @@
+
+The Pygame library used in this game is licensed under the Gnu Lesser General Public License Version 2.1  http://www.pygame.org/LGPL
+
+
+Licenses:
+
+CC-0             http://creativecommons.org/publicdomain/zero/1.0/
+CC-BY-NC-3   http://creativecommons.org/licenses/by-nc/3.0/
+CC-BY-3        http://creativecommons.org/licenses/by/3.0/
+Sampling+    http://creativecommons.org/licenses/sampling+/1.0/
+
+
+
+
+
+
+Audio File: hiss.ogg
+Source Title: Padaddict I » Hissing Snakes.wav
+Source URL: https://www.freesound.org/people/AaronGNP/sounds/44022/
+Source Author: https://www.freesound.org/people/AaronGNP/
+License: Sampling+
+
+
+Audio File: fishline.ogg
+Source Title:  air hiss.wav
+Source URL: https://www.freesound.org/people/kgatto/sounds/240263/
+Source Author: https://www.freesound.org/people/kgatto/
+License: CC-BY-3
+
+
+Audio File: polewhip.ogg
+Source Title: Whip 01.wav
+Source URL: https://www.freesound.org/people/erkanozan/sounds/51755/
+Source Author: https://www.freesound.org/people/erkanozan/
+License: CC-0
+
+
+Audio File: ladder.ogg
+Source Title: Ladder.WAV
+Source URL: https://www.freesound.org/people/DasDeer/sounds/161809/
+Source Author: https://www.freesound.org/people/DasDeer/
+License: CC-BY-3
+
+
+Audio File: splash.ogg
+Source Title:  splash6.wav
+Source URL: https://www.freesound.org/people/Rocktopus/sounds/233427/
+Source Author: https://www.freesound.org/people/Rocktopus/
+License: CC-BY-3
+
+
+Audio File: fishsplash.ogg
+Source Title: eel fishing 1.wav
+Source URL: https://www.freesound.org/people/mystiscool/sounds/7053/
+Source Author: https://www.freesound.org/people/mystiscool/
+License: CC-BY-3
+
+
+Audio File: land.ogg
+Source Title: Jump, landing in snow02
+Source URL: https://www.freesound.org/people/mallement/sounds/160604/
+Source Author: https://www.freesound.org/people/mallement/
+License: CC-BY-3
+
+
+Audio File: gun.ogg
+Source Title: gun-gunshot-02.wav
+Source URL: https://www.freesound.org/people/mdl_03/sounds/209554/#
+Source Author: https://www.freesound.org/people/mdl_03/
+License: CC-BY-3
+
+
+Audio File: woodhit.ogg
+Source Title: Wood Hit.wav
+Source URL: https://www.freesound.org/people/jspath1/sounds/125433/
+Source Author: https://www.freesound.org/people/jspath1/
+License: Sampling+
+
+
+Audio File: machete.ogg
+Source Title: Machetes sliding 2.wav
+Source URL: https://www.freesound.org/people/bellick/sounds/151472/
+Source Author: https://www.freesound.org/people/bellick/
+License: CC-0
+
+
+Audio File: pluck.ogg
+Source Title:   Pop sound
+Source URL: https://www.freesound.org/people/deraj/sounds/202230/
+Source Author: https://www.freesound.org/people/deraj/
+License: CC-0
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+Audio File: 
+Source Title: 
+Source URL: 
+Source Author: 
+License: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

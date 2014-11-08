@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="water" tilewidth="32" tileheight="32">
+  <image source="../graphics/water.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="water"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="5" name="platformtile" tilewidth="32" tileheight="32">
+  <image source="../graphics/platformtile.png" width="320" height="320"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="platform"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt3FtSgzAUAFB+atW6ge5/o7ajHTMxCa8AAc6ZudNWodCYxw2hdh0AAAAAAAAAAAAAR3N5xFvweI2evz/iIxGpbXLbk/Yqr1zZp8q9VoRqvF9cFy6ZiLdbWu648Tnm2sAa4nLLtcPS6yXLNmzfpWPWEL/fZ08cXc2/6Rbtr4a+OjA1cn1D6melsW5o3Uz1j3226I/25Gz9wZpqtLG5xxu7D5xJqc73tYf7b4SvU885tnv3vy60KD6/Nc77WoitDJnTw1LC+n8LYq5a17NgCfduP2Ml1Dann28hb2KelnLgPbllQhmyhtIctsX5bS3P9ZLnestrLd36CWtZqq1N2fcrii54PJrUem14nwfU4HpU2tlyjFYo33X1jTPGnH2Ic6Oj5kUwlTEFyBmTC9X6ngD7Z84C7ct998xcF2A7cihoX5hDvebB4bw59/vSPqVcjOWdYY3zSJ+FP1PvCbS2D22Y0g5rbTPkXACAH3Pm9GP+Z5jrBAAAAMCZWasAALbmfiqgNd8XNBIg
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="200" height="50" visible="0">
+  <object name="player_start" x="1248" y="416" width="32" height="32">
+   <properties>
+    <property name="name_" value="player_start"/>
+   </properties>
+  </object>
+  <object name="ropeswing" x="5408" y="64" width="32" height="352">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="ropeswing" type="ropeswing" x="768" y="0" width="32" height="416">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="platform" x="5888" y="544" width="32" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2592" y="448" width="512" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="ropeswing" x="3392" y="64" width="32" height="288">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="platform" x="5664" y="544" width="32" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="832" y="448" width="992" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5504" y="480" width="160" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="0" y="448" width="736" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="ropeswing" x="2016" y="0" width="32" height="448">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="platform" x="6144" y="416" width="288" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="3104" y="416" width="800" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="6048" y="448" width="96" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1824" y="480" width="128" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5184" y="448" width="320" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="ropeswing" x="2304" y="0" width="32" height="416">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="platform" x="2432" y="480" width="160" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5920" y="480" width="128" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="4608" y="480" width="576" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="3904" y="448" width="704" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5632" y="512" width="32" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5696" y="576" width="192" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5920" y="512" width="32" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="224" y="832" width="256" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="-32" y="768" width="192" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="960" y="608" width="192" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="ladder" x="384" y="640" width="32" height="192">
+   <properties>
+    <property name="name_" value="ladder"/>
+   </properties>
+  </object>
+  <object name="vines" x="384" y="416" width="224" height="96">
+   <properties>
+    <property name="name_" value="vines"/>
+   </properties>
+  </object>
+  <object name="vines" x="960" y="416" width="224" height="96">
+   <properties>
+    <property name="name_" value="vines"/>
+   </properties>
+  </object>
+  <object name="vines" x="544" y="608" width="224" height="96">
+   <properties>
+    <property name="name_" value="vines"/>
+   </properties>
+  </object>
+  <object name="platform" x="384" y="640" width="480" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="576" y="1024" width="352" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="352" y="1120" width="896" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1344" y="960" width="384" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1696" y="800" width="256" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2016" y="864" width="352" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1984" y="1280" width="352" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1184" y="1280" width="544" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="ropeswing" type="ropeswing" x="1632" y="992" width="32" height="256">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="vines" x="960" y="416" width="224" height="96">
+   <properties>
+    <property name="name_" value="vines"/>
+   </properties>
+  </object>
+  <object name="vines" x="1504" y="928" width="224" height="96">
+   <properties>
+    <property name="name_" value="vines"/>
+   </properties>
+  </object>
+  <object name="vines" x="-64" y="736" width="224" height="96">
+   <properties>
+    <property name="name_" value="vines"/>
+   </properties>
+  </object>
+  <object name="ladder" x="2240" y="864" width="32" height="416">
+   <properties>
+    <property name="name_" value="ladder"/>
+   </properties>
+  </object>
+  <object name="tree" x="5248" y="32" width="288" height="416">
+   <properties>
+    <property name="name_" value="tree"/>
+   </properties>
+  </object>
+  <object name="platform" x="1952" y="512" width="64" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2016" y="544" width="64" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2304" y="544" width="64" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2368" y="512" width="64" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2080" y="576" width="224" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="vines" x="672" y="992" width="224" height="96">
+   <properties>
+    <property name="name_" value="vines"/>
+   </properties>
+  </object>
+  <object name="platform" x="4096" y="1120" width="320" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="4608" y="1184" width="320" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5024" y="1184" width="192" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5312" y="1184" width="192" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5728" y="1184" width="160" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5920" y="1120" width="128" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5664" y="1056" width="192" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5888" y="960" width="192" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5696" y="896" width="128" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5472" y="832" width="192" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5792" y="768" width="160" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5888" y="704" width="64" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5984" y="672" width="96" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="6080" y="608" width="64" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="6176" y="576" width="224" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="3200" y="704" width="160" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="3296" y="1152" width="800" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2464" y="832" width="384" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="ropeswing" x="3264" y="736" width="32" height="768">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="platform" x="3392" y="1536" width="320" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="ropeswing" x="5024" y="512" width="32" height="224">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="platform" x="4416" y="736" width="448" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5088" y="768" width="384" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="vines" x="4928" y="448" width="224" height="96">
+   <properties>
+    <property name="name_" value="vines"/>
+   </properties>
+  </object>
+  <object name="platform" x="5056" y="1440" width="160" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="ladder" x="5152" y="1184" width="32" height="256">
+   <properties>
+    <property name="name_" value="ladder"/>
+   </properties>
+  </object>
+  <object name="papaya_tree" x="4224" y="160" width="192" height="288"/>
+  <object name="taro_plant" x="3712" y="352" width="64" height="64"/>
+  <object name="pineapple_plant" x="2944" y="416" width="32" height="32"/>
+ </objectgroup>
+ <layer name="ladders" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2LGJA0EQRNGVFMDmdLbsszv/KBRBC5ZDqoJ7D8b/MMYUcxwAAAAAAAAAAAAAAEDC7Q+HPu7sMx4XDr3c3Wfd3xz6ncd+f2ewC1qcywF6/KQDoNhvOgCKTToAij3TAVDMvoLdpAMAoNikA6CYfwjY+YeA3aQDoJh9BTv7CnaTDoBi9hXs7CvYTToAitlX3zPpAC6zr75n0gFcNumAf8RbDTtvNewmHQDF7CvY2Vewm3QAAAAAUO0F+vYKCQ==
+  </data>
+ </layer>
+ <objectgroup name="bgrounds" width="200" height="50" visible="0">
+  <object name="jungle" x="0" y="0" width="6400" height="480">
+   <properties>
+    <property name="name_" value="jungle"/>
+   </properties>
+  </object>
+  <object name="dirt" x="0" y="480" width="6400" height="1120">
+   <properties>
+    <property name="name_" value="dirt"/>
+   </properties>
+  </object>
+  <object name="dirt" x="0" y="448" width="736" height="32">
+   <properties>
+    <property name="name_" value="dirt"/>
+   </properties>
+  </object>
+  <object name="dirt" x="832" y="448" width="992" height="32">
+   <properties>
+    <property name="name_" value="dirt"/>
+   </properties>
+  </object>
+  <object name="dirt" x="2592" y="448" width="2016" height="32">
+   <properties>
+    <property name="name_" value="dirt"/>
+   </properties>
+  </object>
+  <object name="dirt" x="3104" y="416" width="800" height="32">
+   <properties>
+    <property name="name_" value="dirt"/>
+   </properties>
+  </object>
+  <object name="dirt" x="6048" y="448" width="352" height="32">
+   <properties>
+    <property name="name_" value="dirt"/>
+   </properties>
+  </object>
+  <object name="dirt" x="6144" y="416" width="256" height="32">
+   <properties>
+    <property name="name_" value="dirt"/>
+   </properties>
+  </object>
+  <object name="dirt" x="5184" y="448" width="320" height="32">
+   <properties>
+    <property name="name_" value="dirt"/>
+   </properties>
+  </object>
+  <object name="darkness" x="0" y="704" width="6432" height="896"/>
+ </objectgroup>
+ <objectgroup name="water" width="200" height="50" visible="0">
+  <object name="water" x="1952" y="480" width="480" height="32">
+   <properties>
+    <property name="name_" value="water"/>
+   </properties>
+  </object>
+  <object name="water" x="5664" y="480" width="256" height="32">
+   <properties>
+    <property name="name_" value="water"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="enemies" width="200" height="50">
+  <object name="enemy" x="2592" y="800" width="32" height="32">
+   <properties>
+    <property name="class" value="snake"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="enemy" x="2176" y="1248" width="32" height="32">
+   <properties>
+    <property name="class" value="snake"/>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object name="enemy" x="2176" y="1248" width="32" height="32">
+   <properties>
+    <property name="class" value="snake"/>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object name="enemy" x="1024" y="416" width="32" height="32">
+   <properties>
+    <property name="class" value="snake"/>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object name="enemy" x="4032" y="896" width="64" height="64">
+   <properties>
+    <property name="class" value="bat"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="enemy" x="1760" y="192" width="64" height="64">
+   <properties>
+    <property name="class" value="bat"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="enemy" x="1600" y="128" width="64" height="64">
+   <properties>
+    <property name="class" value="bat"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="enemy" x="1856" y="352" width="64" height="64">
+   <properties>
+    <property name="class" value="bat"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="enemy" x="1856" y="96" width="64" height="64">
+   <properties>
+    <property name="class" value="bat"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="enemy" x="1856" y="192" width="64" height="64">
+   <properties>
+    <property name="class" value="bat"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="enemy" x="1696" y="96" width="64" height="64">
+   <properties>
+    <property name="class" value="bat"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="enemy" x="1760" y="288" width="64" height="64">
+   <properties>
+    <property name="class" value="bat"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="enemy" x="1696" y="224" width="64" height="64">
+   <properties>
+    <property name="class" value="bat"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object name="enemy" x="1600" y="192" width="64" height="64">
+   <properties>
+    <property name="class" value="bat"/>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="fruit trees" width="200" height="50">
+  <object name="banana_tree" x="3200" y="128" width="192" height="288"/>
+ </objectgroup>
+ <objectgroup name="harvest_plants" width="200" height="50"/>
+</map>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="platformtile" tilewidth="32" tileheight="32">
+  <image source="../graphics/platformtile.png" width="160" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="platform"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="26" name="water" tilewidth="32" tileheight="32">
+  <image source="../graphics/water.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="name" value="water"/>
+   </properties>
+  </tile>
+ </tileset>
+ <objectgroup name="Object Layer 1" width="200" height="100">
+  <object name="ropeswing" x="2016" y="0" width="32" height="768">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="ropeswing" x="2304" y="0" width="32" height="704">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="ropeswing" type="ropeswing" x="768" y="0" width="32" height="736">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="ropeswing" x="3392" y="384" width="32" height="288">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="platform" x="0" y="768" width="736" height="544">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="0" y="768" width="736" height="544">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="832" y="768" width="992" height="32">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2592" y="768" width="512" height="352">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2592" y="768" width="512" height="352">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="3104" y="736" width="800" height="512">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2592" y="768" width="512" height="352">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="3904" y="768" width="704" height="384">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2592" y="768" width="512" height="352">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="4608" y="800" width="576" height="384">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="3104" y="736" width="800" height="512">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5184" y="768" width="320" height="352">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5504" y="896" width="896" height="320">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5184" y="768" width="320" height="352">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="608" y="1632" width="512" height="192">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1120" y="1664" width="416" height="192">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1120" y="1664" width="416" height="192">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1120" y="1664" width="416" height="192">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1536" y="1600" width="448" height="192">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1536" y="1600" width="448" height="192">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1984" y="1568" width="160" height="192">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2144" y="1536" width="64" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2208" y="1504" width="64" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2272" y="1472" width="64" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2336" y="1440" width="128" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2464" y="1408" width="128" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2592" y="1376" width="192" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2784" y="1408" width="64" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2848" y="1440" width="64" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2912" y="1472" width="64" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2976" y="1504" width="64" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="3040" y="1472" width="32" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="3072" y="1440" width="32" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="3104" y="1408" width="160" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2112" y="928" width="160" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2304" y="864" width="64" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2368" y="832" width="64" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2016" y="864" width="64" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1952" y="832" width="64" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2432" y="800" width="160" height="64">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2272" y="896" width="32" height="64">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2080" y="896" width="32" height="64">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="2080" y="896" width="32" height="64">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="1824" y="800" width="128" height="64">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="ropeswing" x="5408" y="96" width="32" height="576">
+   <properties>
+    <property name="name_" value="ropeswing"/>
+   </properties>
+  </object>
+  <object name="platform" x="5504" y="800" width="160" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5664" y="864" width="32" height="64">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5888" y="864" width="32" height="64">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="5920" y="800" width="128" height="96">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="6048" y="768" width="96" height="128">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="platform" x="6144" y="736" width="160" height="160">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+  <object name="player_start" x="1248" y="736" width="32" height="32">
+   <properties>
+    <property name="name_" value="player_start"/>
+   </properties>
+  </object>
+  <object name="platform" x="832" y="800" width="32" height="480">
+   <properties>
+    <property name="name_" value="platform"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Tile Layer 1" width="200" height="100" opacity="0.84">
+  <data encoding="base64" compression="zlib">
+   eJzt1sFuFEEMRdEAEiABEiwgEoL//022rdA1k6You+w5V7pru9zvTfL0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0I83AeKciNuPfD6YucdqZvd7H+Dut42cF337kcd+ZO7x8sY/J1yR708B7t67mXn3uDUr4vYjj/3I3GN0698XXJnvrwHu3ruZefd+027Nirj9yGM/Mve4d/NfN4zI9/cAd+/dzLxbv3Vn3Yu+/chjPzL3eM3dz7oRle+3Ae7eu5l5V7sXffuRx35k7rG6f7P7fQhw99vOzLvavejbjzz2I3OP1f2b3e9zgLvfdmbe1e5F337ksR+Ze6zu3+x+3wLc/bYz8652L/r2I4/9yNxjdf9m9/sR4O63nZl3tXvRtx957EfmHqv7N7vfuwB3v+3MvKvdi779yGM/MvdY3b/Z/T4GuPttZ+Zd7V707Uce+5G5x+r+ze73JcDdbzsz72r3om8/8tiPzD1W9y/zbdlG3/BfOrrr99qlH27Q26q/X4+ejecTs3fiPj5yLs668cj34N8+SibudUFP+JrMZO+04k3/w+x3sXaWOryhyptZP1O7vWPFLbK/I/PytHNHVszWhce2w/8hWTOyvx3XmtmN2Yxl/43K/nZcb3Y3duob+dLsLOsFdzc717rACso5uU79IEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJGuJ3mTnq7roTXa+qoveZOeruuhNdr6qi95k56u66E12vqqL3mTnq7roTXa+qoveZOeruuhNdr6qi95k56u66E12vqqL3mTnq7roTXa+qoveZOeruuhNdr6qi95k56u66E12vqqL3mTnq7roTXa+qoveZOeruuhNdr6qi95k56u66E12vqqL3mTnq7roTXa+qoveZOerun8A1Lxf8g==
+  </data>
+ </layer>
+</map>
